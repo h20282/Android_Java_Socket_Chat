@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/ivicon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="top"
+        android:src="@drawable/friend" />
+
+
+    <TextView
+        android:id="@+id/msg_other_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:paddingLeft="30dp"
+        android:padding="8dp"
+        android:textSize="16dp"
+        android:dividerHeight="0dp"
+        android:background="@drawable/chatfrom"
+        android:text="权志龙好帅！！！" />
+
+
+
+
+</LinearLayout>
