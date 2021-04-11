@@ -1,3 +1,3 @@
 rm *.class
 javac Test.java -encoding gbk
-java Test
+nohup java Test &
